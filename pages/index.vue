@@ -11,15 +11,17 @@
           <h2 class="font-bold">{{ item.title }}</h2>
           <div class="">
             <p>{{ item.description }}</p>
-            <p><strong>Tipo: </strong> {{ item.type }}</p>
-            <p>Link: {{ item.link }}</p>
-            <p>Embeddable: {{ item.embeddable }}</p>
-            <p>Download: {{ item.allow_download }}</p>
-            <p>Data de criação: {{ item.created_at }}</p>
-            <p>Última atualização: {{ item.updated_at }}</p>
+            <ul>
+              <li><strong>Tipo: </strong> {{ item.type }}</li>
+              <li>Link: {{ item.link }}</li>
+              <li>Embeddable: {{ item.embeddable }}</li>
+              <li>Download: {{ item.allow_download }}</li>
+              <li>Data de criação: {{ item.created_at }}</li>
+              <li>Última atualização: {{ item.updated_at }}</li>
+            </ul>
           </div>
           <NuxtLink
-            :to="`/item/${item.id}`"
+            :to="`/${item.id}`"
             class=""
           >
             Read more
