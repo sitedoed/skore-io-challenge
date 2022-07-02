@@ -1,5 +1,12 @@
 [
   {
+    "name": "challenge",
+    "path": "/challenge",
+    "component": "/home/ed/projects/skore-io/skore-io-challenge/pages/challenge.vue",
+    "chunkName": "pages/challenge",
+    "_name": "_5d46e66a"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/home/ed/projects/skore-io/skore-io-challenge/pages/index.vue",

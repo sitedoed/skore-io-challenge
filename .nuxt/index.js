@@ -12,6 +12,7 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
+import nuxt_plugin_plugin_69deafe2 from 'nuxt_plugin_plugin_69deafe2' // Source: ./components/plugin.js (mode: 'all')
 import nuxt_plugin_apollomodule_44f88871 from 'nuxt_plugin_apollomodule_44f88871' // Source: ./apollo-module.js (mode: 'all')
 
 // Component: <ClientOnly>
@@ -175,6 +176,10 @@ async function createApp(ssrContext, config = {}) {
     }
   }
   // Plugin execution
+
+  if (typeof nuxt_plugin_plugin_69deafe2 === 'function') {
+    await nuxt_plugin_plugin_69deafe2(app.context, inject)
+  }
 
   if (typeof nuxt_plugin_apollomodule_44f88871 === 'function') {
     await nuxt_plugin_apollomodule_44f88871(app.context, inject)
