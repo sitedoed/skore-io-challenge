@@ -8,6 +8,7 @@ const _5d46e66a = () => interopDefault(import('../pages/challenge.vue' /* webpac
 const _19c9a3a8 = () => interopDefault(import('../pages/read_more/index.vue' /* webpackChunkName: "pages/read_more/index" */))
 const _71871fe0 = () => interopDefault(import('../pages/read_more/_id.vue' /* webpackChunkName: "pages/read_more/_id" */))
 const _3b2992d9 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _26c2cc04 = () => interopDefault(import('../pages/index/_id.vue' /* webpackChunkName: "pages/index/_id" */))
 
 const emptyFn = () => {}
 
@@ -35,7 +36,12 @@ export const routerOptions = {
   }, {
     path: "/",
     component: _3b2992d9,
-    name: "index"
+    name: "index",
+    children: [{
+      path: ":id?",
+      component: _26c2cc04,
+      name: "index-id"
+    }]
   }],
 
   fallback: false

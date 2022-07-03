@@ -4,7 +4,7 @@
     <div class="container">
       <div class="row">
          <h1 class="">Skore-io Challenge</h1>
-         <nuxt-child></nuxt-child>
+       
       </div>
       <div class="row">
         <section>
@@ -18,11 +18,11 @@
               <p>{{ item.description }}</p>
               <ul>
                 <li><strong>Tipo: </strong> {{ item.type }}</li>
-                <li>Link: {{ item.link }}</li>
-                <li>Embeddable: {{ item.embeddable }}</li>
-                <li>Download: {{ item.allow_download }}</li>
-                <li>Data de criação: {{ item.created_at }}</li>
-                <li>Última atualização: {{ item.updated_at }}</li>
+                <li><strong>Url:</strong> {{ item.url }}</li>
+                <li><strong>Embeddable:</strong> {{ item.embeddable }}</li>
+                <li><strong>Download:</strong> {{ item.allow_download }}</li>
+                <li><strong>Data de criação:</strong> {{ item.created_at }}</li>
+                <li><strong>Última atualização:</strong> {{ item.updated_at }}</li>
               </ul>
             </div>
             <NuxtLink
@@ -76,5 +76,4 @@ export default {
     width: 100%;
     padding: 20px;
   }
-
 </style>

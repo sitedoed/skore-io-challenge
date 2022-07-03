@@ -6,6 +6,7 @@
     --color-text-title:#FF5555;
     --color-text-dark:#3D3D3D;
   }
+  
   *{
     padding: 0;
     margin: 0;
@@ -40,3 +41,8 @@
   p {
     padding: 10px;
   }
+
+  article{
+    margin-bottom: 40px;
+  }
+  
