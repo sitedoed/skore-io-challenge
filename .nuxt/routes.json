@@ -7,19 +7,24 @@
     "_name": "_5d46e66a"
   },
   {
+    "name": "read_more",
+    "path": "/read_more",
+    "component": "/home/ed/projects/skore-io/skore-io-challenge/pages/read_more/index.vue",
+    "chunkName": "pages/read_more/index",
+    "_name": "_19c9a3a8"
+  },
+  {
+    "name": "read_more-id",
+    "path": "/read_more/:id",
+    "component": "/home/ed/projects/skore-io/skore-io-challenge/pages/read_more/_id.vue",
+    "chunkName": "pages/read_more/_id",
+    "_name": "_71871fe0"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/home/ed/projects/skore-io/skore-io-challenge/pages/index.vue",
     "chunkName": "pages/index",
-    "children": [
-      {
-        "name": "index-id",
-        "path": ":id?",
-        "component": "/home/ed/projects/skore-io/skore-io-challenge/pages/index/_id.vue",
-        "chunkName": "pages/index/_id",
-        "_name": "_26c2cc04"
-      }
-    ],
     "_name": "_3b2992d9"
   }
 ]

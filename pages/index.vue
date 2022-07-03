@@ -4,6 +4,7 @@
     <div class="container">
       <div class="row">
          <h1 class="">Skore-io Challenge</h1>
+         <nuxt-child></nuxt-child>
       </div>
       <div class="row">
         <section>
@@ -25,7 +26,7 @@
               </ul>
             </div>
             <NuxtLink
-              :to="`/${item.id}`"
+              :to="`/read_more/${item.id}`"
               class=""
             >
               Read more

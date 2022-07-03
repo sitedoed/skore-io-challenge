@@ -18,7 +18,7 @@ rocket Nossas tecnologias</p>
                 <li>GitHub Actions;</li>
             </ul>
             <p>Bora pro desafio?!</p>
-            <p>Queremos desafiar você a desenvolver um projeto em Nuxt.js que atenda os seguintes requisitos:</p>
+            <p class="bold">Queremos desafiar você a desenvolver um projeto em Nuxt.js que atenda os seguintes requisitos:</p>
             <ul>
                 <li>Devemos ter uma página que liste conteúdos;</li>
                 <li>Devemos ter uma página que mostre os detalhes de um conteúdo buscando-o através do id dele;</li>
@@ -30,7 +30,7 @@ wink Dicas que podemos lhe dar...</p>
             <p>Algumas observações que podem ser importantes para a realização do desafio.
 books Um dos principais diferenciais da Skore é suportar diversos tipos de conteúdos.</p>
             <p>Encorajamos você a utilizar os campos embeddable e allow_download ao seu favor e abusar da sua criatividade para exibir os diversos tipos de conteúdo da maneira que achar melhor, desde o HTML nativo até o uso de bibliotecas.</p>
-            <p>Obs: Alguns conteúdos realmente não serão "renderizáveis", para esses conteúdos, você poderá apenas disponibilizar uma forma de abri-los em uma nova aba ou criar a experiência que achar melhor.
+            <p class="bold">Obs: Alguns conteúdos realmente não serão "renderizáveis", para esses conteúdos, você poderá apenas disponibilizar uma forma de abri-los em uma nova aba ou criar a experiência que achar melhor.
 💅🏿 Gostaríamos muito de ver como você estiliza aplicações.</p>
             <p>Nesse desafio desencorajamos o uso de frameworks de layout como Vuetify, Tailwind etc. Pedimos também que você faça o melhor layout que puder deixando-o responsivo e interativo.
 woman_shrugging Sabemos que dúvidas sempre aparecem...</p>
@@ -53,5 +53,8 @@ export default {
 </script>
 
 <style>
+.bold{
+    font-weight:bold ;
+}
 
 </style>
