@@ -2,38 +2,35 @@
   <div class="wrapper">
     <Header />
     <div class="container">
-      <div class="row">
-         <h1 class="">Skore-io Challenge</h1>
-       
-      </div>
-      <div class="row">
-        <section>
-          <article
-            v-for="item in contents"
-            :key="item.id"
-            class=""
-          >
-            <h2 class="font-bold">{{ item.title }}</h2>
-            <div class="">
-              <p>{{ item.description }}</p>
-              <ul>
-                <li><strong>Tipo: </strong> {{ item.type }}</li>
-                <li><strong>Url:</strong> {{ item.url }}</li>
-                <li><strong>Embeddable:</strong> {{ item.embeddable }}</li>
-                <li><strong>Download:</strong> {{ item.allow_download }}</li>
-                <li><strong>Data de criação:</strong> {{ item.created_at }}</li>
-                <li><strong>Última atualização:</strong> {{ item.updated_at }}</li>
-              </ul>
-            </div>
-            <NuxtLink
-              :to="`/read_more/${item.id}`"
+        <div class="item">
+          <h1 class="">Skore-io Challenge</h1>
+          <section>
+            <article
+              v-for="item in contents"
+              :key="item.id"
               class=""
             >
-              Read more
-            </NuxtLink>
-          </article>
-        </section>
-      </div>
+              <h2 class="font-bold">{{ item.title }}</h2>
+              <div class="">
+                <p>{{ item.description }}</p>
+                <ul>
+                  <li><strong>Tipo: </strong> {{ item.type }}</li>
+                  <li><strong>Url:</strong> {{ item.url }}</li>
+                  <li><strong>Embeddable:</strong> {{ item.embeddable }}</li>
+                  <li><strong>Download:</strong> {{ item.allow_download }}</li>
+                  <li><strong>Data de criação:</strong> {{ item.created_at }}</li>
+                  <li><strong>Última atualização:</strong> {{ item.updated_at }}</li>
+                </ul>
+              </div>
+              <NuxtLink
+                :to="`/read_more/${item.id}`"
+                class=""
+              >
+                Read more
+              </NuxtLink>
+            </article>
+          </section>
+        </div>
     </div>
   </div>
 </template>
@@ -65,15 +62,5 @@ export default {
 }
 </script>
 
-<style scoped>
-  .container{
-    margin-top: 120px;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .row{
-    width: 100%;
-    padding: 20px;
-  }
+<style>
 </style>

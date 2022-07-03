@@ -2,7 +2,7 @@
     <header>
         <nav class="container">
             <a href="/">
-                <img id="logo" src="" alt="logo"/>
+                <img id="logo" src="../assets/img/logos-1.webp" alt="logo"/>
             </a>
             <img v-on:click="openMenu" alt="Expandir Menu" id="menu-button" src="../assets/img/toogle-btn.png"/>
             
@@ -40,8 +40,10 @@ export default {
     header {
         background-color: var(--color-background-nav);
         width: 100%;
-        height: 60px;
+        height: 70px;
         display: flex;
+        position: fixed;
+        margin-top: -20px;
         justify-content: center;
         align-items: center;
     }

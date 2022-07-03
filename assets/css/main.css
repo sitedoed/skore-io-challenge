@@ -1,6 +1,6 @@
 :root {
     --color-background:#F3F3F3;
-    --color-background-nav:#00cc00;
+    --color-background-nav:#333;
     --color-background-home:#e6ffe6;
     --color-text-light:#EDEDED;
     --color-text-title:#FF5555;
@@ -28,21 +28,49 @@
     opacity: 0.7;
   }
 
-  .container {
-    width: 90%;
-  }
-
   main {
     width: 100%;
     height: calc(100vh - 120vh);
     display: flex;
   }
-
-  p {
-    padding: 10px;
+  .container{
+    margin-top: 20px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   article{
     margin-bottom: 40px;
   }
+
+  p {
+    padding: 10px;
+  }
   
+  li {
+    list-style-type: none;
+  }
+
+  .item {
+      width: 80%;
+      margin-top: 90px ;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 20px;
+  }
+
+  @media (max-width: 700px){
+    .container{
+      margin-top: 20px;
+      height: auto;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .item{
+      width: 90%;
+      margin: 0 auto;
+      padding: 0;
+    }
+  }
