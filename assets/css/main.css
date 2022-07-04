@@ -65,6 +65,11 @@
     margin-bottom: 20px;
   }
 
+  .item h2 {
+    margin-bottom: 15px;
+    color: #5e5d5d;
+  }
+
   @media (max-width: 700px){
     .container{
       margin-top: 20px;

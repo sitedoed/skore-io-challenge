@@ -1,24 +1,24 @@
 [
   {
-    "name": "challenge",
-    "path": "/challenge",
-    "component": "/home/ed/projects/skore-io/skore-io-challenge/pages/challenge.vue",
-    "chunkName": "pages/challenge",
-    "_name": "_5d46e66a"
+    "name": "desafio",
+    "path": "/desafio",
+    "component": "/home/ed/projects/skore-io/skore-io-challenge/pages/desafio.vue",
+    "chunkName": "pages/desafio",
+    "_name": "_547cbbe4"
   },
   {
-    "name": "read_more",
-    "path": "/read_more",
-    "component": "/home/ed/projects/skore-io/skore-io-challenge/pages/read_more/index.vue",
-    "chunkName": "pages/read_more/index",
-    "_name": "_19c9a3a8"
+    "name": "saiba_mais",
+    "path": "/saiba_mais",
+    "component": "/home/ed/projects/skore-io/skore-io-challenge/pages/saiba_mais/index.vue",
+    "chunkName": "pages/saiba_mais/index",
+    "_name": "_8569a5e2"
   },
   {
-    "name": "read_more-id",
-    "path": "/read_more/:id",
-    "component": "/home/ed/projects/skore-io/skore-io-challenge/pages/read_more/_id.vue",
-    "chunkName": "pages/read_more/_id",
-    "_name": "_71871fe0"
+    "name": "saiba_mais-id",
+    "path": "/saiba_mais/:id",
+    "component": "/home/ed/projects/skore-io/skore-io-challenge/pages/saiba_mais/_id.vue",
+    "chunkName": "pages/saiba_mais/_id",
+    "_name": "_748f2737"
   },
   {
     "name": "index",

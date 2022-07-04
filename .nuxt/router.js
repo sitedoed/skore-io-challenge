@@ -4,9 +4,9 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _5d46e66a = () => interopDefault(import('../pages/challenge.vue' /* webpackChunkName: "pages/challenge" */))
-const _19c9a3a8 = () => interopDefault(import('../pages/read_more/index.vue' /* webpackChunkName: "pages/read_more/index" */))
-const _71871fe0 = () => interopDefault(import('../pages/read_more/_id.vue' /* webpackChunkName: "pages/read_more/_id" */))
+const _547cbbe4 = () => interopDefault(import('../pages/desafio.vue' /* webpackChunkName: "pages/desafio" */))
+const _8569a5e2 = () => interopDefault(import('../pages/saiba_mais/index.vue' /* webpackChunkName: "pages/saiba_mais/index" */))
+const _748f2737 = () => interopDefault(import('../pages/saiba_mais/_id.vue' /* webpackChunkName: "pages/saiba_mais/_id" */))
 const _3b2992d9 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 const _26c2cc04 = () => interopDefault(import('../pages/index/_id.vue' /* webpackChunkName: "pages/index/_id" */))
 
@@ -22,17 +22,17 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
-    path: "/challenge",
-    component: _5d46e66a,
-    name: "challenge"
+    path: "/desafio",
+    component: _547cbbe4,
+    name: "desafio"
   }, {
-    path: "/read_more",
-    component: _19c9a3a8,
-    name: "read_more"
+    path: "/saiba_mais",
+    component: _8569a5e2,
+    name: "saiba_mais"
   }, {
-    path: "/read_more/:id",
-    component: _71871fe0,
-    name: "read_more-id"
+    path: "/saiba_mais/:id",
+    component: _748f2737,
+    name: "saiba_mais-id"
   }, {
     path: "/",
     component: _3b2992d9,

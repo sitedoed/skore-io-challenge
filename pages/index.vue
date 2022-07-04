@@ -5,12 +5,13 @@
         <div class="item">
           <h1 class="">Skore-io Challenge</h1>
           <section>
+            <h2>Lista de conteúdos</h2>
             <article
               v-for="item in contents"
               :key="item.id"
               class=""
             >
-              <h2 class="font-bold">{{ item.title }}</h2>
+              <h3 class="font-bold">{{ item.title }}</h3>
               <div class="">
                 <p>{{ item.description }}</p>
                 <ul>
@@ -23,10 +24,10 @@
                 </ul>
               </div>
               <NuxtLink
-                :to="`/read_more/${item.id}`"
+                :to="`/saiba_mais/${item.id}`"
                 class=""
               >
-                Read more
+                <span class="saiba-mais">Saiba mais</span>
               </NuxtLink>
             </article>
           </section>
@@ -63,4 +64,9 @@ export default {
 </script>
 
 <style>
+.saiba-mais{
+ font-size: large;
+ font-weight: bold;
+ color: #5e5d5d;
+}
 </style>

@@ -10,7 +10,7 @@
             <div id="menu-items" :class="{active:menuActive}">
                 <ul>
                     <li><a href="/">Home</a></li>
-                    <li><a href="/challenge">Challenge Rules</a></li>
+                    <li><a href="/desafio">Desafio de FrontEnd</a></li>
                     <li><a href="https://skoreio-challenge.netlify.app/" target="_blank" rel="noopener">Online Demo</a></li>
                 </ul>
             </div>
