@@ -8,7 +8,6 @@ const _547cbbe4 = () => interopDefault(import('../pages/desafio.vue' /* webpackC
 const _8569a5e2 = () => interopDefault(import('../pages/saiba_mais/index.vue' /* webpackChunkName: "pages/saiba_mais/index" */))
 const _748f2737 = () => interopDefault(import('../pages/saiba_mais/_id.vue' /* webpackChunkName: "pages/saiba_mais/_id" */))
 const _3b2992d9 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
-const _26c2cc04 = () => interopDefault(import('../pages/index/_id.vue' /* webpackChunkName: "pages/index/_id" */))
 
 const emptyFn = () => {}
 
@@ -36,12 +35,7 @@ export const routerOptions = {
   }, {
     path: "/",
     component: _3b2992d9,
-    name: "index",
-    children: [{
-      path: ":id?",
-      component: _26c2cc04,
-      name: "index-id"
-    }]
+    name: "index"
   }],
 
   fallback: false

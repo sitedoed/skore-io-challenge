@@ -25,15 +25,6 @@
     "path": "/",
     "component": "/home/ed/projects/skore-io/skore-io-challenge/pages/index.vue",
     "chunkName": "pages/index",
-    "children": [
-      {
-        "name": "index-id",
-        "path": ":id?",
-        "component": "/home/ed/projects/skore-io/skore-io-challenge/pages/index/_id.vue",
-        "chunkName": "pages/index/_id",
-        "_name": "_26c2cc04"
-      }
-    ],
     "_name": "_3b2992d9"
   }
 ]
