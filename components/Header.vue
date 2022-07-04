@@ -11,6 +11,7 @@
                 <ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="/challenge">Challenge Rules</a></li>
+                    <li><a href="https://skoreio-challenge.netlify.app/" target="_blank" rel="noopener">Online Demo</a></li>
                 </ul>
             </div>
         </nav>
@@ -41,17 +42,19 @@ export default {
         background-color: var(--color-background-nav);
         width: 100%;
         height: 70px;
-        display: flex;
         position: fixed;
         margin-top: -20px;
+        display: block;
         justify-content: center;
         align-items: center;
     }
     nav {
-        display: flex;
+        margin-left: auto;
+        margin-right: auto;
         justify-content: space-between;
+        width: 80%;
         height: 60px;
-        align-items: center;
+        align-items: space-between;
     }
     #logo{
         width: 120px;
